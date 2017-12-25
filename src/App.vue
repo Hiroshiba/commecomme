@@ -33,7 +33,6 @@ export default {
 
     crawlComment () {
       const xhr = new XMLHttpRequest()
-      // const path = 'http://localhost:8888/comment.xml'
       const path = 'comment.xml'
       xhr.open('GET', path, true)
       xhr.onreadystatechange = () => {
