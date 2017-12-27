@@ -10,6 +10,9 @@
 2. ターミナルで`comme_throw.exe [生放送リンク] -x [comment.xmlのパス]`で起動
 3. OBSのBrowserSourceプラグインから`index.html`読み込む
 
+## カスタマイズ
+`css.css`を変更することで見た目を簡単に変更できます。
+
 ## 開発者向け
 ```
 npm install
