@@ -1,4 +1,12 @@
+/*フォント読み込み*/
 @import url("font.css");
+/*
+* フォントの変更方法
+*font-family:"Nico Moji","Rounded Mplus 1c", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka,"メイリオ", "Meiryo",  "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+のところを好きなフォントに変更すると変わります。
+*/
+
+/*メインスタイルシート*/
 @keyframes slide {
   from {
     transform: translateX(100%);
@@ -14,7 +22,7 @@
 }
 
 .comment {
-  font-family:"Rounded Mplus 1c", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka,"メイリオ", "Meiryo",  "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+  font-family:"Nico Moji","Rounded Mplus 1c", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka,"メイリオ", "Meiryo",  "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
   margin: 10px 0px;
   font-size: 18px;
   line-height: 24px;
